@@ -26,6 +26,28 @@
         <div class="col-sm-8 detailCol">
         </div>
       </div>
-    </div>
+
+      <div class="row">
+        <form id=addPets>
+          <div class="form-group">
+            <label for="addingPets">Pet's Name</label>
+            <input type="text" class="form-control" id="petName">
+          </div>
+          <div class="form-group">
+            <label for="addingPets">Pet's Age</label>
+            <input type="number" class="form-control" id="petAge">
+          </div>
+          <label for="addingPets">Pet's Type</label>
+          <select class="form-control" id="petType">
+            <option>cat</option>
+            <option>dog</option>
+            <option>fish</option>
+            <option>monkey</option>
+            <option>elephant</option>
+          </select>
+          <button class="btn btn-danger" type="submit">Submit</button>
+        </form>
+      </div>
+
   </body>
 </html>
